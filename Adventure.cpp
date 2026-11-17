@@ -195,7 +195,7 @@ void Adventure::exploreCouch()
     }
     else if (choice == 4)
     {
-        m_finished = true;
+        return;
     }
 }
     void Adventure::exploreCurtains()
