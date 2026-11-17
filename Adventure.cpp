@@ -1,5 +1,4 @@
 #include "Adventure.h"
-
 #include <iostream>
 #include <limits>
 
@@ -229,13 +228,13 @@ void Adventure::exploreCouch()
 void Adventure::exploreTVStand()
 {
     std::cout << R"CATnTV(
-       
-    \  /    
+
+    \  /
  ____\/_____
 |  .----.  o|    ^~^  ,
 | |      | o|   ('Y') )
 | |      | o|   /   \/
-|__`----`___|  (\|||/) 
+|__`----`___|  (\|||/)
 ========================
 --- THE TV STAND ---
 ========================
@@ -310,7 +309,7 @@ void Adventure::hallway()
 {
     std::cout << R"CATnHALL(
 =====HALLWAY======
-        zzZZ      
+        zzZZ
     (∪ᵔᴥᵔ)
 Rascal is sleeping
 ==================
@@ -335,7 +334,7 @@ Rascal is sleeping
             std::cout << R"DOGnBall(
              .--~~,__
 :-....,-------`~~'._.'
- `-,,,  ,_      ;'~U'      
+ `-,,,  ,_      ;'~U'
   _,-' ,'`-__; '--.
  (_/'~~      ''''(;
             )DOGnBall";
@@ -390,7 +389,7 @@ void Adventure::kitchen()
 {
     std::cout << "\n--- KITCHEN ---\n";
     std::cout << R"CATnKITCHEN(
-=========KITCHEN============ 
+=========KITCHEN============
 )CATnKITCHEN";
     std::cout << "Mischief meter: " << m_mischief << "/5\n";
     std::cout << "There it is: the legendary tuna, sitting on the counter.\n";
@@ -454,7 +453,7 @@ void Adventure::kitchen()
              |    / |   |
              /   /  |   |
             /   /   |   |
-           (,,_]    (,_,)   
+           (,,_]    (,_,)
         )Busted";
         finishGame("BUSTED!",
                    "CRASH! Pots and pans hit the floor.\n"
@@ -475,7 +474,7 @@ void Adventure::kitchen()
 void Adventure::bonusMission()
 {
         std::cout << R"CATnDOG(
-   /\___/\        
+   /\___/\
     (O_O)         |\__/,|    (\
      (V)        _.|o o  |_   ) )
 -oOo--U--oOo----(((---(((--------
@@ -569,7 +568,7 @@ void Adventure::finishGame(const std::string& title,
       |\      _,,,---,,_
 ZZZzz /,`.-'`'    -.  ;-;;,_
      |,4-  ) )-,_. ,\ (  `'-'
-    '---''(_/--'  `-'\_)  
+    '---''(_/--'  `-'\_)
 =============================
 )Sleepy";
     std::cout << "\nFinal mischief meter: " << m_mischief << "/5\n";
