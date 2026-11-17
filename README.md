@@ -16,7 +16,7 @@ make
 To remove the executable and object files:
 
 ```bash
-make clean
+make clean 
 ```
 
 ## How to Play
